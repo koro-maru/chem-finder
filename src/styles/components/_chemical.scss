@@ -1,0 +1,36 @@
+
+.chemContainer {
+    background-color: $off-white;
+    margin: 9vh;
+    padding: 4vh;
+    overflow: auto;
+    box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.322);
+    border-radius: 1vh;
+}
+
+.chemName {
+    text-decoration: none;
+    font-size: 3vh;
+    margin-bottom: 80%;
+    color: rgb(47, 47, 47);
+}
+
+.chemName:hover{
+    color: #017e7f;
+}
+
+.chemName:visited{
+    color: darkslategray;
+}
+.chemPrice {
+    color: rgb(47, 47, 47);
+    margin-bottom: 50%;
+    font-size: 2vw;
+}
+
+.chemImg {
+    float: left;
+   
+    height: 20vh;
+    margin: 1vw;
+}

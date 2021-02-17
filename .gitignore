@@ -1,0 +1,6 @@
+*.config
+*.lock
+*.json
+*.env
+node_modules/
+bin/

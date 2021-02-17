@@ -1,0 +1,68 @@
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#title{
+         font-size: 35vh;
+         text-align: center;
+         color: #fcedd8;
+         font-family: 'Niconne', cursive;
+         margin-bottom: 0;
+         font-weight: 700;
+         text-shadow: 
+         5px 5px 0px #eb452b, 
+         10px 10px 0px #efa032, 
+         15px 15px 0px #46b59b, 
+         20px 20px 0px #017e7f, 
+         25px 25px 0px #052939, 
+         30px 30px 0px #c11a2b, 
+         35px 35px 0px #c11a2b, 
+         40px 40px 0px #c11a2b, 
+         45px 45px 0px #c11a2b;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10vh;
+    color:  #ffffff, 
+}
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    }
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }

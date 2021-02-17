@@ -1,0 +1,44 @@
+
+.button {
+    background-color: rgba(255, 0, 0, 0.52);
+    color:white;
+    border-radius: .5vh;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+}
+
+form {
+    display: flexbox;
+    justify-content: center;
+}
+.searchInput{
+    display: flexbox;
+    justify-content: center;
+    box-sizing: initial;
+    border-radius: .5vh;
+    width: 50vw;
+    height: 2vh;
+    font-family: 'Bitter', serif;
+    font-size: 2vh;
+    background-color: $off-white;
+    padding: $m-size;
+    margin: 1vw;
+}
+
+#formError {
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+    color:  red, 
+}
+
+
+@media (min-width: $desktop-breakpoint) {
+    .searchInput {
+        margin: 0 $s-size 0 0;
+    }
+}
+
